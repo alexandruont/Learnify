@@ -1,4 +1,4 @@
-#Learnify - Online Learning Platform
+# Learnify - Online Learning Platform
 
 **Learnify** is a full-stack web application for online education, built using PHP and MySQL. It supports course creation, PDF content delivery, student enrollment, interactive quizzes, result tracking, and admin/instructor dashboards.
 
