@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnify</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body style="background-color: #ECF0F1;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo3.png" alt="Learnify" width="70px" height="70px" class="d-inline-block align-text-top"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="d-flex align-items-center">
+            <form class="d-flex me-3" role="search">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">User</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="userDashboard.html">My Courses</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="certificates.html">My Certificates</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="settings.html">Settings</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Log Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+    <div class="container" style="padding-top: 120px;">
+      <h2 class="text-primary fw-bold text-center mb-4">Lesson 6: Forms and Inputs</h2>
+      <p class="lead">HTML forms are used to collect user input. Forms are the foundation of user interaction in websites, allowing data submission, searches, login, and more.</p>
+
+      <div class="card p-4 mb-4">
+        <h5 class="text-primary">Key Points:</h5>
+        <ul>
+          <li>The &lt;form&gt; tag defines a form element.</li>
+          <li>Common input elements include &lt;input&gt;, &lt;textarea&gt;, &lt;select&gt;, &lt;button&gt;.</li>
+          <li>Each input uses a <code>type</code> attribute to define its behavior (e.g., text, password, email).</li>
+          <li>The <code>action</code> attribute in &lt;form&gt; defines where to send the data, and <code>method</code> specifies how (GET/POST).</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h5 class="text-primary">Example:</h5>
+        <pre class="bg-light p-3"><code>&lt;form action="submit.html" method="post"&gt;
+    &lt;label&gt;Name:&lt;/label&gt;
+    &lt;input type="text" name="username" /&gt;&lt;br/&gt;
+    &lt;label&gt;Password:&lt;/label&gt;
+    &lt;input type="password" name="password" /&gt;&lt;br/&gt;
+    &lt;button type="submit"&gt;Login&lt;/button&gt;
+  &lt;/form&gt;</code></pre>
+      </div>
+
+      <div class="text-center">
+        <a href="quiz6.html" class="btn btn-success btn-lg">Take Quiz</a>
+      </div>
+    </div>
+
+    <footer class="text-center text-muted py-4 mt-5" style="background-color: #ffffff;">
+      <small>© 2025 Learnify</small>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

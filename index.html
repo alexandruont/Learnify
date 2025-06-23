@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learnify</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body style="background-color: #ECF0F1;">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo3.png" alt="Learnify" width="70px" height="70px" class="d-inline-block align-text-top"> 
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Courses
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="courses.html">All Courses</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="coursecat.html">By Category</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <div class="d-flex">
+                  <a href="signup.html" class="btn btn-primary" style="margin-right: 5px;">Sign up</a>
+                  <a href="login.html" class="btn btn-primary">Log in</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <div class="text-center py-5" style="background-color: #ECF0F1; margin-top: 70px;">
+          <h1 class="display-1 fw-bold text-primary">Learnify</h1>
+          <p class="lead text-dark mt-3">On the path to becoming the #1 learning destination worldwide.</p>
+        </div>
+        <div id="carousel1" class="carousel carousel-dark slide mx-auto" data-bs-touch="false" data-bs-interval="false" style="max-width: 900px;">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/slide1.png" class="d-block w-100" alt="Learn from anywhere in the world">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slide2.png" class="d-block w-100" alt="Build skills at your own pace">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slide3.png" class="d-block w-100" alt="Explore new ideas">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="container text-center py-5">
+          <div class="row">
+            <div class="col-md-4">
+              <h4 class="text-primary">Learn Anywhere</h4>
+              <p>Access courses anytime, on any device.</p>
+            </div>
+            <div class="col-md-4">
+              <h4 class="text-primary">Personalized Learning</h4>
+              <p>Track your unique progress.</p>
+            </div>
+            <div class="col-md-4">
+              <h4 class="text-primary">Flexible Learning</h4>
+              <p>Study at your own pace, with full control.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container py-5">
+          <h2 class="text-center mb-4 text-primary">What You Can Learn</h2>
+          <div class="row ">
+            <div class="col-md-12">
+              <div class="card shadow-sm">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">HTML, CSS, JavaScript, and frameworks.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="text-center text-muted py-4" style="background-color: #ffffff;">
+          <small>© 2025 Learnify</small>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

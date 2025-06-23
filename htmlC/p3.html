@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnify</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body style="background-color: #ECF0F1;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo3.png" alt="Learnify" width="70px" height="70px" class="d-inline-block align-text-top"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="d-flex align-items-center">
+            <form class="d-flex me-3" role="search">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">User</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Dashboard.html">My Courses</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="certificates.html">My Certificates</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="settings.html">Settings</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Log Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+    <div class="container" style="padding-top: 120px;">
+      <h2 class="text-primary fw-bold text-center mb-4">Lesson 3: Headings, Paragraphs, and Text Formatting</h2>
+      <p class="lead">HTML provides various tags to structure and format text content on a webpage. Understanding these tags is essential for organizing information clearly.</p>
+
+      <div class="card p-4 mb-4">
+        <h5 class="text-primary">Key Points:</h5>
+        <ul>
+          <li>&lt;h1&gt; to &lt;h6&gt; define headings, with &lt;h1&gt; being the largest.</li>
+          <li>&lt;p&gt; defines a paragraph of text.</li>
+          <li>&lt;b&gt; or &lt;strong&gt; make text bold, while &lt;i&gt; or &lt;em&gt; italicize it.</li>
+          <li>Comments are written using &lt;!-- comment --&gt; and are not displayed in the browser.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h5 class="text-primary">Example:</h5>
+        <pre class="bg-light p-3"><code>&lt;h1&gt;Main Title&lt;/h1&gt;
+  &lt;p&gt;This is a paragraph with &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italic&lt;/em&gt; text.&lt;/p&gt;
+  &lt;!-- This is a comment --&gt;</code></pre>
+      </div>
+
+      <div class="text-center">
+        <a href="quiz3.html" class="btn btn-success btn-lg">Take Quiz</a>
+      </div>
+    </div>
+
+    <footer class="text-center text-muted py-4 mt-5" style="background-color: #ffffff;">
+      <small>© 2025 Learnify</small>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

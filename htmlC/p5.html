@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnify</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body style="background-color: #ECF0F1;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo3.png" alt="Learnify" width="70px" height="70px" class="d-inline-block align-text-top"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="d-flex align-items-center">
+            <form class="d-flex me-3" role="search">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">User</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Dashboard.html">My Courses</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="certificates.html">My Certificates</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="settings.html">Settings</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Log Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+    <div class="container" style="padding-top: 120px;">
+      <h2 class="text-primary fw-bold text-center mb-4">Lesson 5: Lists and Tables</h2>
+      <p class="lead">Lists and tables help you organize content clearly and make your HTML pages more structured and readable.</p>
+
+      <div class="card p-4 mb-4">
+        <h5 class="text-primary">Key Points:</h5>
+        <ul>
+          <li>Use &lt;ul&gt; (unordered list) and &lt;ol&gt; (ordered list) to create lists, with &lt;li&gt; for each item.</li>
+          <li>Use &lt;table&gt; to create a table, with &lt;tr&gt; for rows, &lt;th&gt; for headers, and &lt;td&gt; for cells.</li>
+          <li>Tables are useful for displaying structured data such as schedules, prices, or comparisons.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h5 class="text-primary">Example:</h5>
+        <pre class="bg-light p-3"><code>&lt;ul&gt;
+    &lt;li&gt;HTML&lt;/li&gt;
+    &lt;li&gt;CSS&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;table border="1"&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+      &lt;td&gt;24&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;</code></pre>
+      </div>
+
+      <div class="text-center">
+        <a href="quiz5.html" class="btn btn-success btn-lg">Take Quiz</a>
+      </div>
+    </div>
+
+    <footer class="text-center text-muted py-4 mt-5" style="background-color: #ffffff;">
+      <small>© 2025 Learnify</small>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

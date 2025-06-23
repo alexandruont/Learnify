@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Learnify</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    </head>
+    <body style="background-color: #ECF0F1;">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo3.png" alt="Learnify" width="70px" height="70px" class="d-inline-block align-text-top"> 
+            </a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="instructorDash.html" class="nav-link">Dashboard</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Log Out</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="container" style="padding-top: 120px;">
+            <h2 class="text-primary fw-bold text-center mb-4">Edit Course</h2>
+            <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form>
+                <div class="mb-3">
+                    <label for="courseTitle" class="form-label">Course Title</label>
+                    <input type="text" class="form-control" id="courseTitle" value="Intro to HTML" required />
+                </div>
+                <div class="mb-3">
+                    <label for="courseCategory" class="form-label">Category</label>
+                    <select class="form-select" id="courseCategory" required>
+                    <option>Web Development</option>
+                    <option selected>Design</option>
+                    <option>Marketing</option>
+                    <option>Business</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="courseDescription" class="form-label">Course Description</label>
+                    <textarea class="form-control" id="courseDescription" rows="4" required>A beginner-friendly course on HTML.</textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="courseImage" class="form-label">Change Course Image</label>
+                    <input type="file" class="form-control" id="courseImage" accept="image/*" />
+                </div>
+                <div class="mb-3">
+                    <label for="courseLevel" class="form-label">Level</label>
+                    <select class="form-select" id="courseLevel">
+                    <option selected>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="courseContent" class="form-label">Course Content</label>
+                    <textarea class="form-control" id="courseContent" rows="4" required>
+                        - What is HTML?
+                        - Basic structure of a webpage
+                        - Tags, elements, and attributes
+                        - Hands-on examples
+                    </textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        <footer class="text-center text-muted py-4 mt-5" style="background-color: #ffffff;">
+            <small>© 2025 Learnify</small>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

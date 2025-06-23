@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnify</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body style="background-color: #ECF0F1;">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../img/logo3.png" alt="Learnify" width="70px" height="70px" class="d-inline-block align-text-top"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <div class="d-flex align-items-center">
+                <form class="d-flex me-3" role="search">
+                  <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">User</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../profile.html">My Profile</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../Dashboard.html">My Courses</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../certificates.html">My Certificates</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../settings.html">Settings</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Log Out</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </nav>
+    <div class="container" style="padding-top: 120px;">
+      <h2 class="text-primary fw-bold text-center mb-4">Lesson 1: What is HTML?</h2>
+      <p class="lead">HTML (HyperText Markup Language) is the standard language for creating web pages. It tells the browser how to display text, images, and other content on a webpage.</p>
+
+      <div class="card p-4 mb-4">
+        <h5 class="text-primary">Key Points:</h5>
+        <ul>
+          <li>HTML uses <strong>tags</strong> to structure content (like &lt;p&gt; for paragraph, &lt;h1&gt; for largest header size, &lt;img&gt;).</li>
+          <li>HTML files are saved with a <code>.html</code> extension.</li>
+          <li>It forms the skeleton of all websites.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h5 class="text-primary">Example:</h5>
+        <pre class="bg-light p-3"><code>&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;My First Webpage&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;Hello, world!&lt;/h1&gt;
+      &lt;p&gt;This is my first webpage.&lt;/p&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;</code></pre>
+      </div>
+      <div class="text-center">
+        <!-- <a href="quiz1.php" class="btn btn-success btn-lg">Take Quiz</a> -->
+      </div>
+    </div>
+
+    <footer class="text-center text-muted py-4 mt-5" style="background-color: #ffffff;">
+      <small>© 2025 Learnify</small>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
