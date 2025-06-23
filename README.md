@@ -32,6 +32,3 @@
 - **Database:** MySQL
 - **Libraries:** Bootstrap 5, Icons CDN
 - **Server:** XAMPP (or any LAMP/WAMP stack)
-
-## 📂 Project Structure
-
