@@ -28,7 +28,7 @@
 ## Tech Stack
 
 - **Frontend:** HTML, CSS (Bootstrap), JavaScript
-- **Backend:** PHP (procedural)
+- **Backend:** PHP 
 - **Database:** MySQL
 - **Libraries:** Bootstrap 5, Icons CDN
-- **Server:** XAMPP (or any LAMP/WAMP stack)
+- **Server:** XAMPP
