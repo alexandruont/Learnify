@@ -20,10 +20,6 @@
   - Store user answers and results
   - Instructor feedback and attempt history
 
-- Admin Panel *(optional future expansion)*
-  -View all users and instructors
-  -Review messages and feedback from instructors/students
-  -Add or remove courses
 
 ## Tech Stack
 
